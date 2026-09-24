@@ -101,5 +101,4 @@ under its own research terms and is not redistributed.
 
 ## Status
 
-Research code accompanying a thesis. The unit tests pass, but the GPU stages have not been
-independently re-run from this repository; see "Status of each part" above.
+Research code accompanying a thesis. 
