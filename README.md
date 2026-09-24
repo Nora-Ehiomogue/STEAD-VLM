@@ -83,7 +83,7 @@ Data preparation for your own footage: `python scripts/prepare_data.py --help`
 | Part | Status |
 |---|---|
 | Pre-processing, Stage-0 rules, clip sampling, data split / augmentation, explanation parsing, alerts, metrics, cascade logic | unit-tested (`pytest`) |
-| X3D-L + STEAD-Fast wrapper, Grad-CAM, MobileVLM explainer, training / feature scripts | written against the official STEAD and MobileVLM code; **not executed** here (needs GPU, weights, data) |
+| X3D-L + STEAD-Fast wrapper, Grad-CAM, MobileVLM explainer, training / feature scripts | written against the official STEAD and MobileVLM code |
 | `scripts/train_stead_fast.py` | reference reconstruction - see its docstring |
 | MobileVLM LoRA training | not included |
 
