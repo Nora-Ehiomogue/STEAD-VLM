@@ -1,0 +1,27 @@
+# data - never commit footage, clips, labels or captions
+data/
+*.mp4
+*.avi
+*.npy
+*.csv
+!tests/**/*.csv
+
+# weights and runs
+*.pt
+*.pth
+*.pkl
+*.safetensors
+runs/
+results/
+
+# secrets
+.env
+*.env
+
+# third-party clones (or add them as submodules instead)
+third_party/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/

@@ -1,0 +1,26 @@
+# core (data, metrics, cascade logic, tests)
+numpy
+pandas
+scikit-learn
+opencv-python
+Pillow
+requests
+pytest
+
+# Stage 0
+ultralytics            # AGPL-3.0 - read the licence notes in README
+
+# Stage 1 (see also third_party/STEAD/requirements.txt)
+torch
+pytorchvideo
+einops
+performer-pytorch
+
+# Stage 2 (see also third_party/MobileVLM/requirements.txt)
+transformers
+peft
+accelerate
+sentencepiece
+
+# data preparation only
+mediapipe
